@@ -524,7 +524,8 @@ export var ReactTelephoneInput = createReactClass({
         return {
             selectedCountry: selectedCountryGuess,
             highlightCountryIndex: selectedCountryGuessIndex,
-            formattedNumber: formattedNumber
+            formattedNumber: formattedNumber,
+            defaultCountry: props.defaultCountry
         }
     },
     _fillDialCode() {
